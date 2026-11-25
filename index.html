@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Litoral Home Care | Assistência domiciliar na Bahia</title>
+<meta name="description" content="Saúde em boas mãos, no conforto do seu lar. Internação domiciliar, enfermagem, fisioterapia, nutrição e fonoaudiologia no Litoral Norte, Salvador e Região Metropolitana.">
+<meta name="robots" content="noindex"><!-- PRÉVIA: remover esta linha ao publicar no domínio -->
+<link rel="icon" href="img/favicon.png">
+<meta property="og:title" content="Litoral Home Care">
+<meta property="og:description" content="Saúde em boas mãos, no conforto do seu lar.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--pet:#1f636e;--pet2:#164a53;--tq:#65b1bb;--tq2:#e6f3f4;--or:#e88417;--tx:#24343a;--mu:#5f7177;--bg:#f7fafa}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font:16px/1.65 Manrope,system-ui,sans-serif;color:var(--tx);background:#fff}
+a{color:inherit}img{max-width:100%;display:block}
+.w{max-width:1140px;margin:auto;padding:0 20px}
+h1,h2,h3{line-height:1.15;color:var(--pet2);font-weight:800}
+h1{font-size:clamp(34px,5.4vw,58px)}h2{font-size:clamp(28px,3.6vw,40px);margin-bottom:14px}h3{font-size:19px}
+.k{color:var(--or);font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;display:block}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:800;text-decoration:none;border:2px solid var(--pet)}
+.b1{background:var(--pet);color:#fff}.b2{color:var(--pet)}.bw{background:#25d366;border-color:#25d366;color:#fff}
+section{padding:88px 0}.alt{background:var(--bg)}
+/* header */
+header{position:sticky;top:0;z-index:20;background:#fffffffa;border-bottom:1px solid #e3ecee}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.nav img{height:44px;width:auto}
+.nav ul{display:flex;gap:26px;list-style:none;padding:0}.nav ul a{text-decoration:none;font-weight:600;font-size:15px}
+.nav ul a:hover{color:var(--pet)}
+#mb{display:none;background:none;border:0;font-size:28px;color:var(--pet)}
+/* hero */
+.hero{padding:70px 0 90px;background:linear-gradient(180deg,var(--tq2),#fff)}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero p{font-size:19px;color:var(--mu);margin:20px 0 30px;max-width:540px}
+.acts{display:flex;gap:12px;flex-wrap:wrap}
+.ph{aspect-ratio:4/3.4;border-radius:28px;overflow:hidden;background:var(--tq2) url(img/favicon.png) center/90px no-repeat}
+.ph img{width:100%;height:100%;object-fit:cover}
+/* grids */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.lead p+p{margin-top:14px}.lead p{color:var(--mu)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px;margin-top:40px}
+.card{background:#fff;border:1px solid #e3ecee;border-radius:20px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none}
+.card .ph{aspect-ratio:4/3;border-radius:0}
+.card div.t{padding:18px 20px 22px}.card p{color:var(--mu);font-size:14.5px;margin-top:6px}
+.card:hover{border-color:var(--tq);box-shadow:0 10px 30px #1f636e14}
+.difs{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:34px;list-style:none;padding:0}
+.difs li{background:#fff;border-radius:16px;padding:18px 20px;font-weight:600;border-left:4px solid var(--tq)}
+.tech{background:var(--pet2);color:#dff1f2}.tech h2{color:#fff}.tech p{max-width:720px}
+.tag{display:inline-block;margin-top:18px;font-size:13px;background:#ffffff1a;padding:6px 12px;border-radius:8px}
+/* serviços detalhados */
+details{border:1px solid #e3ecee;border-radius:18px;background:#fff;margin-top:14px}
+summary{cursor:pointer;list-style:none;padding:20px 24px;font-weight:800;font-size:18px;color:var(--pet2);display:flex;gap:14px;align-items:center}
+summary::-webkit-details-marker{display:none}summary b{color:var(--or);font-size:14px}
+summary:after{content:"+";margin-left:auto;font-size:24px;color:var(--tq)}details[open] summary:after{content:"–"}
+.sd{padding:0 24px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px 30px}
+.sd>p{grid-column:1/-1;color:var(--mu)}.sd h4{color:var(--pet);margin:8px 0 4px;font-size:15px}
+.sd ul{padding-left:18px;color:var(--mu);font-size:15px}
+.note{font-size:13px;color:var(--mu);margin-top:18px}
+/* mapa */
+.map{background:var(--tq2);border-radius:24px;padding:28px}
+.reg{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.reg span{background:var(--pet);color:#fff;border-radius:999px;padding:8px 16px;font-weight:600;font-size:14px}
+/* contato */
+form{display:grid;gap:12px}
+input,textarea,select{font:inherit;padding:13px 16px;border:1px solid #cfdfe2;border-radius:12px;width:100%}
+.ci{list-style:none;padding:0;display:grid;gap:12px;margin:22px 0}.ci b{display:block;color:var(--pet);font-size:13px}
+iframe{width:100%;height:260px;border:0;border-radius:18px;margin-top:10px}
+.cta{background:var(--pet);color:#fff;text-align:center;border-radius:28px;padding:56px 24px}
+.cta h2{color:#fff}.cta p{opacity:.85;margin-bottom:26px}
+footer{background:var(--pet2);color:#bfdadd;padding:54px 0 30px;font-size:14px}
+.fg{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px}footer img{height:48px;width:auto;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:10px}footer a{text-decoration:none;display:block}
+.cp{border-top:1px solid #ffffff22;margin-top:34px;padding-top:18px;font-size:12.5px}
+.wa{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px #0003;z-index:30}
+@media(max-width:880px){
+ .hg,.two,.fg{grid-template-columns:1fr;gap:34px}section{padding:64px 0}
+ #mb{display:block}.nav ul{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;padding:16px 20px;gap:14px;border-bottom:1px solid #e3ecee}
+ .nav ul.on{display:flex}.hero{padding-top:40px}
+}
+</style>
+</head>
+<body>
+<header><div class="w nav">
+ <a href="#inicio" aria-label="Litoral Home Care — início"><img src="img/logo.svg" alt="Litoral Home Care" width="133" height="44"></a>
+ <button id="mb" aria-label="Abrir menu" onclick="document.querySelector('.nav ul').classList.toggle('on')">☰</button>
+ <ul onclick="this.classList.remove('on')">
+  <li><a href="#inicio">Início</a></li><li><a href="#quem-somos">Quem Somos</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#onde-atuamos">Onde Atuamos</a></li><li><a href="#contato">Contato</a></li>
+ </ul>
+</div></header>
+
+<main>
+<section class="hero" id="inicio"><div class="w hg">
+ <div>
+  <span class="k">Atenção domiciliar</span>
+  <h1>Saúde em boas mãos, no conforto do seu lar.</h1>
+  <p>Assistência domiciliar especializada, com equipe multidisciplinar, tecnologia e cuidado humanizado para proporcionar mais segurança e qualidade de vida.</p>
+  <div class="acts"><a class="btn b1" href="#servicos">Conheça nossos serviços</a><a class="btn b2" href="#contato">Fale com nossa equipe</a></div>
+ </div>
+ <div class="ph"><img src="img/servicos/internacao-domiciliar.jpg" alt="Profissional de saúde atendendo paciente em casa" onerror="this.remove()"></div>
+</div></section>
+
+<section id="quem-somos"><div class="w two">
+ <div><span class="k">Quem somos</span><h2>Cuidado especializado, onde você se sente melhor: em casa.</h2></div>
+ <div class="lead">
+  <p>A Litoral Home Care é uma empresa especializada nos serviços de atenção domiciliar, oferecendo assistência completa aos pacientes no ambiente familiar.</p>
+  <p>Trabalhamos com equipamentos modernos e uma equipe multidisciplinar qualificada nas melhores práticas de saúde, utilizando protocolos atualizados que possibilitam segurança e eficiência dos serviços, integrando tecnologia a uma gestão experiente e comprometida, em busca constante de inovações.</p>
+  <p>Nosso compromisso é proporcionar segurança, eficiência e humanização em cada atendimento.</p>
+ </div>
+</div></section>
+
+<section class="alt"><div class="w">
+ <span class="k">Diferenciais</span><h2>Mais do que assistência, compromisso com o cuidado.</h2>
+ <ul class="difs">
+  <li>Equipe multidisciplinar qualificada</li><li>Atendimento humanizado</li><li>Protocolos atualizados</li><li>Equipamentos modernos</li><li>Acompanhamento individualizado</li><li>Tecnologia aplicada à assistência</li><li>Segurança e transparência</li>
+ </ul>
+</div></section>
+
+<section id="servicos"><div class="w">
+ <span class="k">Nossos serviços</span><h2>Assistência completa no ambiente familiar.</h2>
+ <div class="cards" id="cards"></div>
+ <h2 style="margin-top:80px">Conheça cada serviço</h2>
+ <div id="det"></div>
+ <p class="note">As informações têm caráter institucional. A indicação de cada procedimento depende de avaliação profissional individual.</p>
+</div></section>
+
+<section class="tech"><div class="w">
+ <span class="k">Tecnologia</span><h2>Tecnologia que aproxima famílias e profissionais.</h2>
+ <p>A Litoral Home Care utiliza recursos tecnológicos para proporcionar mais segurança, agilidade e transparência na prestação dos serviços. Seu sistema inteligente permite o acompanhamento das informações assistenciais pela família e pela operadora de saúde, com acesso via web e aplicativo.</p>
+ <span class="tag">Consulte nossa equipe sobre o acesso à plataforma.</span>
+</div></section>
+
+<section id="onde-atuamos"><div class="w two">
+ <div><span class="k">Onde atuamos</span><h2>Levamos cuidado a quem precisa.</h2>
+  <p style="color:var(--mu)">A Litoral Home Care mantém presença na Bahia, com atuação no Litoral Norte, Salvador e Região Metropolitana. A empresa também já apresentou planos estratégicos de expansão para outros estados do Nordeste.</p></div>
+ <div class="map"><h3>Bahia</h3><div class="reg"><span>Litoral Norte</span><span>Salvador</span><span>Região Metropolitana</span></div>
+  <iframe loading="lazy" title="Mapa da região de atuação" src="https://maps.google.com/maps?q=Litoral%20Norte%20Bahia&z=8&output=embed"></iframe></div>
+</div></section>
+
+<section class="alt" id="contato"><div class="w two">
+ <div><span class="k">Contato</span><h2>Precisa de assistência domiciliar?</h2>
+  <p style="color:var(--mu)">Entre em contato com nossa equipe e conheça as possibilidades de atendimento da Litoral Home Care.</p>
+  <ul class="ci">
+   <li><b>Telefone / WhatsApp</b><a href="https://wa.me/5571993157392">(71) 99315-7392</a></li>
+   <li><b>E-mail</b><a href="mailto:contato@litoralhomecare.com.br">contato@litoralhomecare.com.br</a></li>
+   <li><b>Instagram</b><a href="https://instagram.com/litoralhomecare" target="_blank" rel="noopener">@litoralhomecare</a></li>
+   <li><b>Endereço</b>Loteamento Praia de Imbassaí, Lote 04, Quadra 09, s/n, Imbassaí, Mata de São João – BA, CEP 48.580-000</li>
+  </ul>
+  <a class="btn bw" href="https://wa.me/5571993157392?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20atendimento%20domiciliar." target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+  <iframe loading="lazy" title="Mapa do endereço" src="https://maps.google.com/maps?q=Imbassa%C3%AD%2C%20Mata%20de%20S%C3%A3o%20Jo%C3%A3o%20BA&z=13&output=embed"></iframe>
+ </div>
+ <form id="f">
+  <h3>Envie uma mensagem</h3>
+  <input name="nome" placeholder="Nome" required aria-label="Nome">
+  <input name="tel" placeholder="Telefone" required aria-label="Telefone">
+  <input name="email" type="email" placeholder="E-mail" aria-label="E-mail">
+  <input name="assunto" placeholder="Assunto" aria-label="Assunto">
+  <textarea name="msg" rows="5" placeholder="Mensagem" aria-label="Mensagem"></textarea>
+  <button class="btn b1" type="submit">Enviar pelo WhatsApp</button>
+  <small style="color:var(--mu)">Ao enviar, sua mensagem abre no WhatsApp da nossa equipe.</small>
+ </form>
+</div></section>
+</main>
+
+<footer><div class="w">
+ <div class="fg">
+  <div><img src="img/logo-branca.svg" alt="Litoral Home Care" width="145" height="48"><p>Saúde em boas mãos, no conforto do seu lar.</p></div>
+  <div><h4>Navegação</h4><a href="#quem-somos">Quem Somos</a><a href="#servicos">Serviços</a><a href="#onde-atuamos">Onde Atuamos</a><a href="#contato">Contato</a></div>
+  <div><h4>Contato</h4><a href="https://wa.me/5571993157392">(71) 99315-7392</a><a href="mailto:contato@litoralhomecare.com.br">contato@litoralhomecare.com.br</a><a href="https://instagram.com/litoralhomecare">@litoralhomecare</a><p>Imbassaí, Mata de São João – BA</p></div>
+ </div>
+ <div class="cp">© <span id="y"></span> Litoral Home Care. Todos os direitos reservados.</div>
+</div></footer>
+
+<a class="wa" href="https://wa.me/5571993157392" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.6-.1 1.2z"/></svg></a>
+
+<script>
+const S=[
+["internacao-domiciliar","Internação domiciliar","Assistência contínua em casa para pacientes com quadro clínico estável.",
+ "Modalidade de assistência para pacientes com quadro clínico estável que não necessitam de toda a estrutura hospitalar. O paciente recebe assistência em sua própria residência, com qualidade e segurança, planejamento individualizado, protocolos assistenciais seguros e acompanhamento sistemático.",
+ {"Características":["Acompanhamento contínuo","Equipe multidisciplinar","Médicos e enfermeiros","Fisioterapeutas e fonoaudiólogos","Nutricionistas e cuidadores, conforme necessidade"],"Benefícios":["Maior conforto","Humanização do cuidado","Redução dos riscos de infecção hospitalar","Convivência familiar","Contribuição para recuperação e qualidade de vida"]}],
+["curativos-especiais","Curativos especiais","Tratamento de feridas complexas e de difícil cicatrização.",
+ "Tratamento de feridas complexas e de difícil cicatrização, com avaliação individualizada e plano de cuidados conforme a evolução.",
+ {"Tipos de lesões":["Úlceras por pressão","Feridas diabéticas","Lesões vasculares","Feridas cirúrgicas","Lesões neoplásicas","Feridas infectadas"],"Tecnologias e materiais":["Hidrocoloide","Alginato de cálcio","Carvão ativado com prata","Espuma de poliuretano","Coberturas bioativas"],"Diferenciais":["Equipe especializada","Produtos específicos","Monitoramento em prontuário eletrônico","Atendimento humanizado"]}],
+["antibioticoterapia","Antibioticoterapia","Início ou continuidade de tratamento medicamentoso em casa.",
+ "Acompanhamento do paciente para continuidade ou início de tratamento medicamentoso em casa.",
+ {"Vias de administração":["Endovenosa","Intramuscular","Subcutânea"],"Diferenciais":["Supervisão médica e de enfermagem","Protocolos de segurança","Equipe treinada em terapia intravenosa","Monitoramento clínico","Bombas de infusão","Cateteres de longa permanência","Materiais estéreis"]}],
+["coleta-laboratorial","Coleta laboratorial","Exames laboratoriais realizados na residência do paciente.",
+ "Realização de exames laboratoriais na residência, com atendimento agendado e pontualidade.",
+ {"Indicado para":["Pessoas com mobilidade reduzida","Idosos","Pacientes acamados","Quem precisa evitar deslocamentos"],"Tipos de coleta":["Sangue","Urina","Fezes","Secreções","Culturas","Swabs"],"Diferenciais":["Profissionais capacitados","Parcerias com laboratórios","Registro em prontuário eletrônico"]}],
+["cuidados-de-enfermagem","Cuidados de enfermagem","Profissionais habilitados com foco em conforto e segurança.",
+ "Assistência domiciliar prestada por profissionais habilitados, com foco em conforto, segurança e suporte técnico.",
+ {"Atividades":["Higiene","Administração de medicamentos","Controle de sinais vitais","Curativos especiais"],"Também":["Sondagens","Manejo de dispositivos","Suporte a pacientes crônicos","Cuidados paliativos"]}],
+["fisioterapia-motora-e-respiratoria","Fisioterapia motora e respiratória","Reabilitação de movimentos e cuidado da função pulmonar.",
+ "Atendimento individualizado com planos terapêuticos personalizados, reavaliações periódicas e integração com a equipe multidisciplinar.",
+ {"Motora":["Reabilitação de movimentos","Força muscular e equilíbrio","Autonomia","Sequelas neurológicas e ortopédicas","Pacientes acamados e pós-operatório"],"Respiratória":["Prevenção e tratamento de doenças pulmonares","Higiene brônquica","Expansão pulmonar","Melhora da oxigenação"]}],
+["fisioterapia-pelvica-e-dtm","Fisioterapia pélvica e DTM","Assoalho pélvico e articulação temporomandibular.",
+ "Prevenção e tratamento de disfunções do assoalho pélvico e da articulação temporomandibular (DTM).",
+ {"Pélvica — indicações":["Incontinência urinária e fecal","Dor pélvica crônica","Constipação","Preparação e recuperação do parto","Prolapsos","Disfunções sexuais"],"DTM — sintomas":["Dor na mandíbula","Estalos e travamentos","Cefaleia","Zumbido","Dificuldade para mastigar e falar"],"Tratamentos":["Terapia manual","Reeducação muscular e postural","Relaxamento miofascial","Orientações sobre hábitos saudáveis"]}],
+["nutricionista","Nutricionista","Avaliação, planejamento e acompanhamento alimentar em casa.",
+ "Atendimento nutricional domiciliar para avaliação, planejamento e acompanhamento alimentar.",
+ {"Público":["Pacientes acamados","Pessoas em reabilitação","Pacientes com doenças crônicas","Dieta enteral ou parenteral"],"Diferenciais":["Avaliação individualizada","Dietas personalizadas","Dietas orais, enterais e parenterais","Monitoramento da evolução nutricional","Integração com a equipe"]}],
+["fonoaudiologia","Fonoaudiologia","Comunicação, deglutição, linguagem, fala e voz.",
+ "Atendimento domiciliar com foco na prevenção de complicações, melhora funcional e autonomia na alimentação e comunicação.",
+ {"Alterações tratadas":["Comunicação","Deglutição","Linguagem","Fala","Voz"],"Público":["Pacientes neurológicos","Idosos","Pacientes acamados","Cuidados paliativos","Reabilitação pós-cirúrgica"]}],
+["equipamentos-hospitalares","Equipamentos hospitalares","Suporte com equipamentos para o cuidado em casa.",
+ "Apoio com equipamentos hospitalares para viabilizar o cuidado no ambiente domiciliar. Consulte nossa equipe sobre disponibilidade e condições.",{}]
+];
+const h=s=>s.replace(/[&<]/g,c=>c=="&"?"&amp;":"&lt;");
+cards.innerHTML=S.map(([id,t,r])=>`<a class="card" href="#s-${id}" onclick="document.getElementById('s-${id}').open=true"><div class="ph"><img loading="lazy" src="img/servicos/${id}.jpg" alt="${h(t)}" onerror="this.remove()"></div><div class="t"><h3>${h(t)}</h3><p>${h(r)}</p></div></a>`).join("");
+det.innerHTML=S.map(([id,t,,d,g],i)=>`<details id="s-${id}"><summary><b>${String(i+1).padStart(2,"0")}</b>${h(t)}</summary><div class="sd"><p>${h(d)}</p>${Object.entries(g).map(([k,v])=>`<div><h4>${h(k)}</h4><ul>${v.map(x=>`<li>${h(x)}</li>`).join("")}</ul></div>`).join("")}</div></details>`).join("");
+f.onsubmit=e=>{e.preventDefault();const d=new FormData(f);const t=`Olá! Sou ${d.get("nome")} (${d.get("tel")}${d.get("email")?", "+d.get("email"):""}).\nAssunto: ${d.get("assunto")||"-"}\n${d.get("msg")||""}`;open("https://wa.me/5571993157392?text="+encodeURIComponent(t),"_blank")};
+y.textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
